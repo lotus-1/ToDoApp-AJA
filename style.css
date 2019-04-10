@@ -1,0 +1,16 @@
+body {
+font-size: 50px;
+/*background-image: url(http://newwritingnorth.com/wp-content/uploads/2017/02/book-731199_960_720.jpg);*/
+background-repeat: no-repeat;
+background-size: cover;
+  }
+.box{
+  font-size: 50px;
+  height: 100px;
+  width: 700px;
+}
+.button{
+  font-size: 50px;
+  height: 100px;
+  width: 400px;
+}
