@@ -16,7 +16,14 @@
   var createTodoNode = function(todo) {
     var todoNode = document.createElement('li');
     // you will need to use addEventListener
-
+    addTodoForm.addEventListener('submit', function(event) {
+      var textnode = document.createTextNode(state[0].description);
+      todoNode.appendChild(textnode);
+      document.container.appendChild(todoNode);
+      console.log(addTodoForm);
+      console.log(todoNode);
+      console.log(textnode);
+    })
     // add span holding description
 
     // this adds the delete button
