@@ -49,12 +49,8 @@ return copyTodosArray.filter(function(el) {
     // hint: array.map
 var copyTodosArr = todoFunctions.cloneArrayOfObjects(todos);
 return copyTodosArr.map(function(el){
-  if(el.id === idToMark){
- el.done = true;
- return el;
-} else {
+  if(el.id === idToMark){el.done = true} 
   return el;
-}
 })
   },
   sortTodos: function(todos, sortFunction) {
