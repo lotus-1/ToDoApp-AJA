@@ -1,6 +1,6 @@
 body {
 font-size: 80px;
-background-image: url(http://newwritingnorth.com/wp-content/uploads/2017/02/book-731199_960_720.jpg);
+background-image: url('assets/book.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -31,10 +31,16 @@ img {
   margin-right: 1200px;
   margin-top: 60px;
 }
-@media screen and (max-width: 600px) {
+button{
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}
+}
+@media screen and (max-width: 800px) {
   body {
   font-size: 80px;
-  background-image: url(http://newwritingnorth.com/wp-content/uploads/2017/02/book-731199_960_720.jpg);
+  background-image: url('http://newwritingnorth.com/wp-content/uploads/2017/02/book-731199_960_720.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
