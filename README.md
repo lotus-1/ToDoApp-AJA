@@ -7,6 +7,8 @@ deleteText -->
 
 Thursday, 11th of April 2019
 
+![picture](assets/download.jpeg)
+
 People need a list to mark their tasks and/or to add their daily tasks.
 This is our app thaat we created called ToDoApp
 <!-- (link ToDoApp) -->
