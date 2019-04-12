@@ -60,10 +60,8 @@
     //
     // this adds the delete button
       var deleteButtonNode = document.createElement('button');
+      deleteButtonNode.classList.add("btn-node-style");
       var deleteText = document.createTextNode("Delete");
-      deleteButtonNode.style.height = "50px";
-      deleteButtonNode.style.width = "100px";
-      deleteButtonNode.style.fontSize = "20px";
       deleteButtonNode.appendChild(deleteText);
       deleteButtonNode.addEventListener('click', function(event) {
         var newState = todoFunctions.deleteTodo(state, todo.id);
@@ -73,10 +71,8 @@
 
     // add markTodo button
       var markButtonNode = document.createElement('button');
+      markButtonNode.classList.add("btn-node-style");
       var markText = document.createTextNode("Mark");
-      markButtonNode.style.height = "50px";
-      markButtonNode.style.width = "100px";
-      markButtonNode.style.fontSize = "20px";
       markButtonNode.appendChild(markText);
       markButtonNode.addEventListener('click', function(event) {
       var newState = todoFunctions.markTodo(state, todo.id);
