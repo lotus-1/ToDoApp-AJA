@@ -7,9 +7,7 @@
   var addTodoForm = document.getElementById('add-todo');
 
   var state = [
-    // { id: -3, description: 'first todo' },
-    // { id: -2, description: 'second todo' },
-    // { id: -1, description: 'third todo' },
+    
   ]; // this is our initial todoList
   // This function takes a todo, it returns the DOM node representing that todo
   var createTodoNode = function(todo) {
@@ -19,36 +17,7 @@
       var newNode = document.createTextNode(todo.description);
       addNode.appendChild(newNode);
       todoNode.appendChild(addNode);
-      // var toDoTask = document.getElementsByName("description")[0].value;
-      // var ul = document.getElementById("id");
-      //todoNode.textcontent = toDoTask;
-  // todoNode.appendChild(document.createTextNode(toDoTask));
-  // ul.appendChild(todoNode);
-  //document.getElementsByName("description0")[0].value = "";
-  //todoNode.onclick = removeItem;
-    //  console.log("This is the ul: ", ul);
-  // var checkBox = document.createElement("input");
-  // checkBox.setAttribute("type", "checkBox");
-  // checkBox.type="checkbox";
-  // checkBox.checked = false;
-  // todoNode.appendChild(checkBox);
-  // checkBox.checked = false;
-  // console.log("This is checkBox: ", checkBox);
-    //   var textnode = document.getElementsByClassName("box")[0].value;
-    //   document.getElementById("todo-container").innerHTML = textnode;
-    //   console.log("This is the textnode: ", textnode);
-    //   var node = document.createTextNode(textnode);
-    // //  addNode.appendChild(node);
-    // //  todoNode.appendChild(textnode);
-    //   console.log("This is our node: ", node);
-    //   //var result = todoFunctions.addTodo(state, todo.description);
-    //   //update(result);
-    //   //todoNode.appendChild(textnode);
-    //   //document.container.appendChild(todoNode);
-    //   //return result;
-    // console.log("This is the addTodoForm function: ", addTodoForm);
-    // //todoNode.appendChild(text);
-    // // add span holding description
+    // add span holding description
     // this adds the delete button
       var deleteButtonNode = document.createElement('button');
       var deleteText = document.createTextNode("Delete");
